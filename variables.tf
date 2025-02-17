@@ -6,11 +6,11 @@ variable "AMI" {
     type = map(string)
 
     default = {
-        us-west-2 = "ami-0d593311db5abb72b"
-        us-east-1 = "ami-0c2a1acae6667e438"
+        us-west-2 = "ami-00c257e12d6828491"
+        us-east-1 = "ami-053a45fff0a704a47"
     }
 }
 
 variable "PUBLIC_KEY_PATH" {
-    default = "/Users/praveensingampalli/Documents/BOOTCAMP2_FINAL/Terraform_learning_demo/Terraform_learning_demo/oregon-region-key-pair.pub"
+    default = "/Users/tarungurugubelli/Git/terraform-aws/oregon-region-key-pair.pub"
 }
